@@ -7,6 +7,7 @@ if [ -z $1 ]; then
    echo "------------------------------------------"
    echo "Remember to load conda environment using:"
    echo "source ./utils.sh; load_conda"
+   echo "Alternatively, use the py38.yml config to create your own conda environment"
    echo "------------------------------------------"
 
   ./print_codes.py -h
